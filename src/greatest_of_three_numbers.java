@@ -9,12 +9,12 @@ public class greatest_of_three_numbers {
         int b = sc.nextInt();
         System.out.println("Enter 3rd number: ");
         int c = sc.nextInt();
-        if (a>b) {
-            System.out.println(a);
-        } else if (b>c) {
-            System.out.println(b);
-        } else {
-            System.out.println(c);
+        if (a>b & a>c) {
+            System.out.println("greatest no is:"+a);
+        } else if (b>c & b>a) {
+            System.out.println("greatest no is:"+b);
+        } else if (c>a & c>b){
+            System.out.println("greatest no is:"+c);
         }
     }
 }
